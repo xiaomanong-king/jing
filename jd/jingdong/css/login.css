@@ -1,0 +1,147 @@
+#login-header{
+	background: #fff;
+	border-top: 1px solid #b6b4b6;
+}
+.header-inner{
+	width: 990px;
+	height: 80px;
+	margin: 0 auto;
+	background: #fff;
+}
+.header-inner .logo{
+	height: 60px;
+	padding: 10px 0;
+}
+.header-inner .logo h1{
+	display: inline-block;
+	width: 170px;
+	height: 60px;
+	background: url(../img/login_logo_bg.png) no-repeat;
+	text-indent: -999px;
+}
+.header-inner .logo b{
+	font-size: 24px;
+	font-weight: bold;
+	vertical-align: bottom;
+	margin-left: 24px;
+}
+.header-inner .logo a{
+	vertical-align: bottom;
+	margin-left: 580px;
+	color: #999;
+}
+.header-inner .logo a:hover{
+	color: #e4393c;
+	text-decoration: underline;
+}
+/* 主体 */
+#main{
+	background: #f02665;
+}
+.main-inner{
+	width: 990px;
+	height: 475px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/main-bg.jpg) no-repeat;
+}
+.main-inner .box{
+	width: 346px;
+	height: 400px;
+	background: #fff;
+	margin-top: 10px;
+	margin-left: 643px;
+}
+.main-inner .box p{
+	height: 38px;
+	background: #fff8f0;
+	line-height: 38px;
+	text-align: center;
+	color: #999;
+}
+.main-inner .box p span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #bbb;
+	border-radius: 100%;
+	text-align: center;line-height: 16px;
+}
+.main-inner .box .mode{
+	height: 18px;
+	padding: 18px 0;
+	border-bottom: 1px solid #f4f4f4;
+}
+.main-inner .box .mode a{
+	padding: 0 49px;
+	font-size: 18px;
+	color: #7d667d;
+}
+.main-inner .box .mode a:nth-child(2){
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+}
+.main-inner .box form{
+	padding-left: 20px;
+}
+.main-inner .box form .tips{
+	height: 33px;
+	width: 305px;
+	background: #fff;
+	line-height: 33px;
+	color: #f00;
+}
+.main-inner .box form div label{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: url(../img/jinglingtu.png) no-repeat;
+	vertical-align: bottom;
+	border: 1px solid #bdbdbd;
+	float: left;
+}
+.main-inner .box form .password{
+	margin-top: 20px;
+	margin-bottom: 23px;
+}
+.main-inner .box form div input{
+	outline: none;
+	width: 254px;
+	height: 38px;
+	border: 1px solid #bdbdbd;
+	border-left: none;
+	float: left;
+	padding-left: 11px;
+}
+.main-inner .box form p{
+	background: #fff;
+	color: #666;
+	padding-left: 240px;
+}
+.main-inner .box form p a:hover{
+	text-decoration: underline;
+}
+.main-inner .box form .btn{
+	width: 302px;
+	height: 32px;
+	background: #e4393c;
+	border: 1px solid #e85356;
+	color: #fff;
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 24px;
+}
+.main-inner .box>p:nth-of-type(2){
+	margin-top: 30px;
+	border-top: 1px solid #eee;
+	background: #fcfcfc;
+	line-height: 50px;
+	padding-left: 250px;
+}
+.main-inner .box>p:nth-of-type(2) a{
+	color: #b61d1d;
+	background-position: -20px 0;
+}
+.main-inner .box>p:nth-of-type(2) a:hover{
+	text-decoration: underline;
+}

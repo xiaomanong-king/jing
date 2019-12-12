@@ -1,0 +1,336 @@
+html, body {
+  background: #fff; }
+
+.header-inner {
+  width: 1210px;
+  margin: 0 auto; }
+
+.header-inner .login {
+  margin-left: 500px; }
+
+#de-logo {
+  background: #fff; }
+
+.de-logo-inner {
+  width: 1210px;
+  height: 100px;
+  background: #fff;
+  margin: 0 auto; }
+  .de-logo-inner .de-logo {
+    width: 362px;
+    height: 60px;
+    padding: 20px 0;
+    float: left; }
+    .de-logo-inner .de-logo h1 {
+      float: left; }
+      .de-logo-inner .de-logo h1 a {
+        display: block;
+        width: 134px;
+        height: 60px;
+        background: url(../img/de-logo.png) no-repeat;
+        text-indent: -999px; }
+    .de-logo-inner .de-logo h2 {
+      float: left;
+      width: 63px;
+      height: 25px;
+      padding: 0 5px;
+      border: 1px solid #eee;
+      text-align: center;
+      line-height: 25px;
+      margin-left: 45px;
+      margin-top: 15px; }
+  .de-logo-inner .de-search {
+    width: 560px;
+    height: 79px;
+    float: left;
+    padding-top: 20px; }
+    .de-logo-inner .de-search form {
+      width: 560px;
+      height: 36px;
+      margin-top: 5px; }
+      .de-logo-inner .de-search form input {
+        width: 434px;
+        height: 32px;
+        outline: none;
+        float: left;
+        border: 2px solid #b61d1d;
+        padding-left: 2px; }
+      .de-logo-inner .de-search form a {
+        display: block;
+        width: 52px;
+        height: 36px;
+        padding: 0 4px;
+        float: left;
+        text-align: center;
+        line-height: 36px;
+        color: #fff; }
+      .de-logo-inner .de-search form a:nth-of-type(1) {
+        background: #b61d1d; }
+      .de-logo-inner .de-search form a:nth-of-type(2) {
+        background: #474e5c; }
+    .de-logo-inner .de-search ul li {
+      float: left;
+      margin-right: 10px;
+      line-height: 26px; }
+  .de-logo-inner .de-buycar {
+    float: left;
+    width: 140px;
+    height: 34px;
+    margin-top: 25px;
+    margin-left: 82px;
+    border: 1px solid #dfdfdf;
+    background: #f9f9f9;
+    text-align: center;
+    line-height: 34px; }
+    .de-logo-inner .de-buycar a {
+      margin-left: 5px;
+      margin-right: 17px; }
+
+#de-nav {
+  background: #028bdb; }
+  #de-nav .de-nav-inner {
+    width: 1210px;
+    height: 24px;
+    background: #028bdb;
+    margin: 0 auto;
+    padding: 8px 0;
+    line-height: 24px; }
+    #de-nav .de-nav-inner ul {
+      float: left; }
+      #de-nav .de-nav-inner ul li {
+        float: left; }
+        #de-nav .de-nav-inner ul li a {
+          display: block;
+          height: 24px;
+          padding: 0 15px;
+          color: #fff;
+          border-radius: 12px; }
+          #de-nav .de-nav-inner ul li a:hover {
+            background: #333; }
+    #de-nav .de-nav-inner form {
+      float: right;
+      height: 24px; }
+      #de-nav .de-nav-inner form input {
+        height: 24px;
+        float: left;
+        vertical-align: middle;
+        border: none;
+        outline: none; }
+      #de-nav .de-nav-inner form .text {
+        width: 132px;
+        padding-left: 10px;
+        border-radius: 12px 0 0 12px; }
+      #de-nav .de-nav-inner form .btn {
+        width: 46px;
+        padding: 0 10px;
+        background: url(../img/input_bg.png) no-repeat center #333;
+        border-radius: 0 12px 12px 0; }
+
+#de-main {
+  background: #fff; }
+  #de-main .de-main-inner {
+    width: 1210px;
+    margin: 0 auto;
+    padding-top: 15px; }
+    #de-main .de-main-inner .exhibition {
+      float: left;
+      position: relative; }
+      #de-main .de-main-inner .exhibition .small {
+        width: 350px;
+        height: 350px;
+        border: 1px solid #eee; }
+        #de-main .de-main-inner .exhibition .small .mask {
+          width: 235px;
+          height: 235px;
+          background: #feeea7;
+          display: none;
+          position: absolute;
+          opacity: 0.3;
+          filter: alpha(opacity=30);
+          z-index: 214;
+          cursor: move; }
+      #de-main .de-main-inner .exhibition .big {
+        width: 540px;
+        height: 540px;
+        overflow: hidden;
+        border: 1px solid #eee;
+        position: absolute;
+        top: 0;
+        left: 352px;
+        display: none;
+        z-index: 12; }
+    #de-main .de-main-inner .descripiton {
+      float: left;
+      padding-top: 15px;
+      margin-left: 30px;
+      width: 590px; }
+      #de-main .de-main-inner .descripiton .title h2 {
+        font-weight: bold;
+        font-size: 16px;
+        color: #666;
+        line-height: 28px; }
+        #de-main .de-main-inner .descripiton .title h2 span {
+          padding: 2px;
+          background: #c81623;
+          color: #fff;
+          width: 60px;
+          height: 16px;
+          border-radius: 2px;
+          font-size: 12px;
+          margin-right: 4px;
+          font-weight: normal; }
+      #de-main .de-main-inner .descripiton .title p {
+        color: #e4393c;
+        line-height: 28px; }
+        #de-main .de-main-inner .descripiton .title p a {
+          color: #5e69ad;
+          text-decoration: underline; }
+      #de-main .de-main-inner .descripiton .price {
+        width: 590px;
+        height: 80px;
+        background: #f3f3f3;
+        padding-left: 10px; }
+        #de-main .de-main-inner .descripiton .price p:nth-of-type(1) {
+          line-height: 36px; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(1) span:nth-of-type(1) {
+            letter-spacing: 7px;
+            color: #999; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(1) span:nth-of-type(2) {
+            font-size: 24px;
+            color: #e4393c; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(1) span:nth-of-type(3) {
+            text-decoration: line-through;
+            color: #999; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(1) a {
+            color: #005aa0; }
+            #de-main .de-main-inner .descripiton .price p:nth-of-type(1) a:hover {
+              color: #e4393c; }
+        #de-main .de-main-inner .descripiton .price p:nth-of-type(2) {
+          line-height: 36px; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(2) span:nth-of-type(1) {
+            letter-spacing: 25px;
+            color: #999; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(2) span:nth-of-type(2) {
+            margin-left: -13px;
+            margin-right: 5px;
+            border: 1px solid #e4393c;
+            padding: 3px; }
+          #de-main .de-main-inner .descripiton .price p:nth-of-type(2) span:nth-of-type(3) {
+            color: #666; }
+      #de-main .de-main-inner .descripiton .delivery {
+        height: 64px;
+        border-bottom: 1px dashed #eee;
+        padding-left: 10px; }
+        #de-main .de-main-inner .descripiton .delivery dt {
+          float: left;
+          letter-spacing: 7px;
+          color: #999;
+          margin-top: 7px;
+          margin-right: 10px; }
+        #de-main .de-main-inner .descripiton .delivery div {
+          float: left;
+          margin-top: 2px; }
+          #de-main .de-main-inner .descripiton .delivery div p:nth-of-type(1) {
+            display: inline-block;
+            border: 1px solid #eee;
+            padding: 4px;
+            color: #666; }
+          #de-main .de-main-inner .descripiton .delivery div strong {
+            color: #999;
+            font-weight: bold;
+            margin: 0 15px 0 6px; }
+          #de-main .de-main-inner .descripiton .delivery div span:nth-of-type(1) {
+            color: #999; }
+          #de-main .de-main-inner .descripiton .delivery div span:nth-of-type(2) {
+            color: #fff;
+            display: inline-block;
+            background: #b3b5be;
+            width: 16px;
+            height: 16px;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 16px; }
+          #de-main .de-main-inner .descripiton .delivery div p:nth-of-type(2) {
+            margin-top: 13px;
+            color: #999; }
+            #de-main .de-main-inner .descripiton .delivery div p:nth-of-type(2) a {
+              padding: 0 4px;
+              color: #e4393c; }
+      #de-main .de-main-inner .descripiton .color {
+        height: 66px;
+        border-bottom: 1px dashed #eee;
+        padding-left: 10px; }
+        #de-main .de-main-inner .descripiton .color p {
+          color: #999;
+          letter-spacing: 2px;
+          float: left;
+          margin-top: 29px; }
+        #de-main .de-main-inner .descripiton .color a {
+          display: block;
+          width: 80px;
+          height: 42px;
+          border: 1px solid #ccc;
+          text-align: center;
+          line-height: 42px;
+          float: left;
+          margin-left: 10px;
+          margin-top: 15px; }
+        #de-main .de-main-inner .descripiton .color a:nth-of-type(2) {
+          background: #000;
+          color: #fff; }
+      #de-main .de-main-inner .descripiton .number {
+        padding-left: 10px; }
+        #de-main .de-main-inner .descripiton .number div {
+          float: left;
+          width: 58px;
+          height: 44px;
+          border: 1px solid #ccc; }
+          #de-main .de-main-inner .descripiton .number div input {
+            width: 42px;
+            height: 44px;
+            background: #fff;
+            float: left;
+            display: block;
+            border: none;
+            outline: none;
+            text-align: center;
+            line-height: 44px; }
+          #de-main .de-main-inner .descripiton .number div div {
+            float: left;
+            width: 15px;
+            height: 44px;
+            border: none;
+            border-left: 1px solid #ccc; }
+            #de-main .de-main-inner .descripiton .number div div a {
+              display: block;
+              width: 15px;
+              height: 22px;
+              text-align: center;
+              line-height: 22px;
+              background: #f1f1f1;
+              color: #666; }
+            #de-main .de-main-inner .descripiton .number div div a:nth-of-type(2) {
+              height: 21px;
+              border-top: 1px solid #ccc; }
+        #de-main .de-main-inner .descripiton .number > a {
+          display: block;
+          width: 142px;
+          height: 46px;
+          text-align: center;
+          font-weight: bold;
+          float: left;
+          font-size: 18px;
+          background: #df3033;
+          color: #fff;
+          line-height: 46px;
+          margin-left: 10px; }
+      #de-main .de-main-inner .descripiton > p {
+        padding: 23px 0 0 10px;
+        color: #999; }
+        #de-main .de-main-inner .descripiton > p span {
+          margin-right: 18px; }
+
+section {
+  width: 100%;
+  height: 500px;
+  background: #fff; }

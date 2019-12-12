@@ -1,0 +1,171 @@
+/* ---------------------顶部------------------------*/
+#header{
+	background: #e3e4e5;
+	border-top: #b6b4b6;
+	border-bottom: #ddd;
+}
+.header-inner{
+	width: 990px;
+	height: 30px;
+	background: #e3e4e5;
+	margin: 0 auto;
+}
+.login{
+	float: left;
+	line-height: 30px;
+	/* margin-left: 300px; */
+	/* width: 115px; */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.header-inner .login form input{
+	width: 90px;
+}
+.header-inner .login .showBox{
+	display: none;
+}
+.header-inner .login .register{
+	margin-left: 10px;
+	color: #e1251b;
+}
+.header-inner .list{
+	float: right;
+	line-height: 30px;
+}
+.header-inner .list>li{
+	float: left;
+	margin-right: 8px;
+}
+.header-inner .list>li>a{
+	border-left: 1px solid #ccc;
+	padding-left: 12px;
+	
+}
+.header-inner .list>li .icon-xiajiantou{
+	margin-left: 4px;
+}
+
+
+/*-------------------- 顶部二级导航 ---------------------*/
+.header-inner .list>li:nth-child(2),.header-inner .list>li:nth-child(4),.header-inner .list>li:nth-child(5),.header-inner .list>li:nth-child(6){
+	position: relative;
+}
+/* -----------------我的京东--------------- */
+.header-inner .list>li:nth-child(2):hover .two-nav01{
+	display: block;
+}
+.header-inner .list>li:nth-child(4):hover .two-nav02{
+	display: block;
+}
+.header-inner .list>li:nth-child(5):hover .two-nav03{
+	display: block;
+}
+.header-inner .list>li:nth-child(6):hover .two-nav04{
+	display: block;
+}
+.header-inner .list>li:nth-child(2):hover,.header-inner .list>li:nth-child(4):hover,.header-inner .list>li:nth-child(5):hover,.header-inner .list>li:nth-child(6):hover{
+	background: #fff;
+}
+.two-nav01{
+	background: #fff;
+	width: 270px;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	display: none;
+}
+.two-nav01>ul,.two-nav02>ul,.two-nav03>ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+}
+.two-nav01>ul:nth-child(1),.two-nav03>ul:nth-child(1){
+	border-top: none;
+	border-bottom: none;
+}
+.two-nav01>ul>li{
+	float: left;
+	width: 60px;
+	padding-right: 65px;
+}
+/* -----------企业采购---------- */
+.two-nav02{
+	background: #fff;
+	width: 155px;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	display: none;
+}
+.two-nav02>ul{
+	border-top: none;
+	width: 145px
+}
+.two-nav02>ul>li,.two-nav03>ul>li{
+	float: left;
+	width: 70px;
+}
+/* ---------------客户服务------------- */
+.two-nav03{
+	background: #fff;
+	width: 170px;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	display: none;
+	z-index: 99;
+}
+.two-nav03 ul h2{
+	font-weight: bold;
+}
+.two-nav03>ul>li{
+	margin-left: 5px;
+}
+/* -----------------------网站导航---------------- */
+.two-nav04{
+	background: #fff;
+	position: absolute;
+	left: -833px;
+	top: 30px;
+	display: none;
+	z-index: 99;
+	border: 1px solid #eee;
+	padding: 10px 0;
+	width: 990px;
+	border-top: none;
+}
+.two-nav04 ul{
+	float: left;
+	border-left: 1px solid #eee;
+	padding: 0 20px;
+	line-height: 26px;
+}
+.two-nav04>ul:nth-child(1){
+	width: 280px;
+	border-left: none;
+}
+.two-nav04>ul:nth-child(2){
+	width: 180px;
+}
+.two-nav04>ul:nth-child(3){
+	width: 180px;
+}
+.two-nav04>ul:nth-child(4){
+	width: 185px;	
+}
+.two-nav04>ul>li{
+	float: left;
+	width: 90px;
+}
+.two-nav04>ul h2{
+	font-weight: bold;
+}
+.fontcolor ul li a{
+	color: #b5b5b5;
+}
+.fontcolor ul li a:hover{
+	color: #e1251b;
+}
